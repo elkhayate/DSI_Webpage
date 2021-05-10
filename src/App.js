@@ -7,6 +7,7 @@ import Partner from "./components/Partner";
 import Product from "./components/Product";
 import About from "./components/About";
 import Technology from "./components/Technology";
+import Footer from "./components/Footer";
 function App() {
   return (
     <Router>
@@ -28,6 +29,9 @@ function App() {
 
 
 function Home() {
-  return(<h1>Home page.</h1>)
+  return(<div>
+    <h1>Home page.</h1>
+    <Footer />
+  </div>)
 }
 export default App;
