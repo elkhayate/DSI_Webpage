@@ -1,0 +1,36 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 70px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    top : 0;
+    right : 0;
+    left : 0;
+}
+.logo{
+    margin-left:100px ;
+}
+
+.navlinks {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(31, 46, 53, 0.8);
+    list-style: none;
+    margin-left: -0px;
+}
+
+.imgs {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 5%;
+    align-items: center;
+}
