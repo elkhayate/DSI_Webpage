@@ -1,0 +1,53 @@
+.container1 {
+    background: url(../images/back.svg);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 382px;
+}
+.container1 h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 133.69%;    
+    text-align: center;
+    color: #263238;
+    width: 32%;
+}
+.container2 h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 133.69%;
+    color: #1F2E35;
+}
+.container2 {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.container2content {
+    width: 32%;
+}
+.services {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;  
+    height: 776px;  
+}
+.line {
+    padding: 0;
+    margin: 0;
+    margin-top: -1rem;
+}
+.spana {
+    width: 45%;
+    margin-left: 150px;
+}
