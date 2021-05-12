@@ -55,6 +55,7 @@ button {
     line-height: 29px;
     color: #FFFFFF;
     cursor: pointer;
+    margin-top: 15px;
 }
 .back {
     background-color: #F7F7F7;

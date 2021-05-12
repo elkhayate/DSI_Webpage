@@ -29,7 +29,7 @@
     margin-top: 50px;
 }
 .ppana {
-    margin-top: 150px;
+    margin-top: 120px;
     margin-bottom: 100px;
 }
 
@@ -42,6 +42,7 @@
     color: #1F2E35;
 }
 .container2 p {
+    margin-top: 50px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
