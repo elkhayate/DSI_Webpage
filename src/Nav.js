@@ -25,12 +25,16 @@ function Nav() {
                 <Link style={Style} to = "/about">
                 <li>About</li>
                 </Link>
+                <Link style={Style} to = "/abouts">
+                <li>Abouts</li>
+                </Link>
                 <Link style={Style} to = "/client">
                 <li>Client</li>
                 </Link>
                 <Link style={Style} to = "/partner">
                 <li>Partner</li>
                 </Link>
+                
             </ul>
             <ul className={style.imgs}>
                 <li><img src = {union} alt="union"/></li>

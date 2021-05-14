@@ -13,6 +13,7 @@ import desk from "./images/desk.png";
 import verified from "./images/verified.png";
 import product from "./images/product.png";
 import cog from "./images/cogwheel.png";
+import Abouts from "./components/Abouts";
 function App() {
   return (
     <Router>
@@ -26,6 +27,7 @@ function App() {
         <Route path="/product" component={Product}/>
         <Route path="/about" component={About}/>
         <Route path="/technology" component={Technology}/>
+        <Route path="/abouts" component= {Abouts} />
       </Switch>
     </div>
     </Router>

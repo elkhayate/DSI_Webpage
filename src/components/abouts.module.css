@@ -1,0 +1,72 @@
+.container {
+    height: 100px;
+    width: 100%;
+    background: #F6F6F6;
+}
+.container1 {
+    height: 405px;
+    width: 100%;
+    background: #F6F6F6;
+    justify-content: space-around;
+    align-items: center ;
+    text-align: center;
+    margin-top:0;
+}
+.container1 img {
+    margin-top: 49px;
+}
+.title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 140.69%;
+    color: #30444E;
+    width: 40%;
+    margin: auto;
+}
+.title span {
+    color: #30444E;
+    font-weight: bold;
+}
+.container2 {
+    height: 17px;
+    background: #EE4248;
+}
+.container3 ,.container4 , .container5 {
+    display: flexbox;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    height: 600px;
+}
+.container3  .container4 .container5 h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 140.69%;
+    color: #263238;
+}
+.cards3  ,.cards4 , .cards5 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+ 
+.cards4 h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    
+}
