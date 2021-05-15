@@ -1,7 +1,6 @@
 import React from 'react';
 import Card from "./Card";
 import style from "./abouts.module.css";
-import rodney from "../images/rodney.png";
 import sung from "../images/sung.png";
 import chemise from "../images/chemise.png";
 import cuate from "../images/cuate.png";

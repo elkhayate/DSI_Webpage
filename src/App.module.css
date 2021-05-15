@@ -139,3 +139,15 @@ button {
     line-height: 150%;
     color: #30444E;
 }
+.mobile {
+    display:none;
+}
+
+@media (max-width: 1100) {
+    .mobile {
+        display: flex;
+    }
+    .normal {
+        display: none;
+    }
+}

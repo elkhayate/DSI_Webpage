@@ -16,7 +16,7 @@ function Nav() {
     return(
         <nav className={style.nav}>
             <Link to ="/" style={Style} onClick={()=>setShowAbout(false)}>
-            <img className={style.logo} src={logo} alt = "logo"/>
+            <img className={style.logo} src={logo} alt = ""/>
             </Link>
             <ul className={style.navlinks}>
                 <Link style={Style} to ="/services" onClick={()=>setShowAbout(false)}>

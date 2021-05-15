@@ -14,11 +14,18 @@ import verified from "./images/verified.png";
 import product from "./images/product.png";
 import cog from "./images/cogwheel.png";
 import Abouts from "./components/Abouts";
+import Navmobile from "./Navmobile";
 function App() {
   return (
     <Router>
     <div className="App">
+      <div className={style.mobile}>
+        <Navmobile />
+      </div>
+      <div className={style.normal}>
       <Nav />
+      </div>
+      
       <Switch>
         <Route path= "/" exact component={Home}/>
         <Route path="/services" component={Services}/>
