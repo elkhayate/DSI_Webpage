@@ -6,6 +6,7 @@ import line from "../images/line.png";
 import b1 from "../images/image 17.png";
 import b2 from "../images/image 16.png";
 import b3 from "../images/image 18.png";
+import Carousel from "./Carousel";
 
 function Client() {
     return(
@@ -55,6 +56,7 @@ function Client() {
                     <p>This project provides delivery channel application over web browser for customer to perform banking and financial transactions, such as inquiry balance, overbook, purchase, and payment. Using: JAVA technologies, PostgreSQL</p><br/>
                 </div>
             </div>
+            <Carousel />
             <Footer />
         </section>
     )
