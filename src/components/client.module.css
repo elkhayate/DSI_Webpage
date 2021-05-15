@@ -1,0 +1,79 @@
+.container {
+    display: flex;
+    background: #f7f7f7;
+    justify-content: space-around;
+    height: 405px;
+}
+.container h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 140.69%;
+    color: #30444E;
+    height: 65%;
+    margin: auto;
+}
+.container span {
+    color: #30444E;
+    font-weight: bold; 
+}
+.test {
+    background-color: #EE4248;
+    height: 17px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.container1 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.container1 h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 140.69%;
+    color: #263238;
+}
+.container2 img {
+    height: 103px;
+    width: 445px;
+}
+.content {
+    width: 30%;
+}
+.content h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 140.69%;
+    color: #263238;
+}
+.content p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140.69%;
+    text-align: justify;
+    color: #263238;
+}
+.container2 , .container3, .container4 {
+    background: #F7F7F7;
+    display: flex;
+    height: 526px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.container3 {
+    height: 835px;
+    background-color: white;
+}
+.container4 {
+    height: 700px;
+    margin-bottom: 50px;
+}
