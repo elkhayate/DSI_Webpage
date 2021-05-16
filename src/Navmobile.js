@@ -3,13 +3,10 @@ import style from "./navmobile.module.css";
 import bars from "./images/bars.png";
 import {Link} from "react-router-dom";
 import logo from "./images/logo.png";
-import arrow from "./images/chevron_down.png"
 function Navmobile() {
-    const [showAbout,setShowAbout] = useState(false);
     const [showBars, setShowBars] = useState(false);
     function Do() {
         setShowBars(false);
-        setShowAbout(false);
     }
     const Style = {textDecoration: 'none', cursor: "pointer"};
         return (
