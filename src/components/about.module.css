@@ -189,3 +189,110 @@
     line-height: 30px;
     color: #30444E
 }
+.out {
+    display: none;
+}
+@media (max-width : 1100px) {
+    .container1 {
+        height: 100%;
+    }
+    .content1 {
+        height: 100%;
+        display: flexbox;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .content1 h1 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 133.69%;
+        text-align: center;
+        color: #263238;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .logo {
+        width: 70%;
+    }
+    .container2 , .container3 , .container4{
+        height: 100%;
+    }
+    .container2 {
+        width: 90%;
+    }
+    .container3 {
+        padding-bottom: 20px;
+    }
+    .content2 {
+        display: flexbox;
+        flex-wrap: wrap;
+    }
+    .drone {
+        width: 90%;
+    }
+    .content2d {
+        margin-left: 0px;
+        text-align: center;
+        width: 90%;
+        display: flexbox;
+        justify-content: space-around;
+    }
+    .content21 , .content22{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin-top: 30px;
+        text-align: start;
+    }
+    .content21, .content22 img {
+        height: 100%;
+        margin-right: 30px;
+    }
+    .our {
+        display: none;
+    }
+    .out {
+        display: block;
+        font-weight: 37px;
+        letter-spacing: 0.2px;
+        color: #263238;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .cont4 {
+        display: flexbox;
+        flex-wrap: wrap;
+        padding:20px;
+    }
+    .content3 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .eng {
+        width: 100%;
+    }
+    .content4 {
+        display: flexbox;
+        flex-wrap: wrap;
+        height: 100%;
+        padding: 20px;
+    }
+    .map {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .contact {
+        font-weight: normal;
+        font-size: normal;
+        line-height: 140.69%;
+        color: #263238;
+        text-align: start;
+        width: 70%;
+        margin: auto;
+    }
+}
+

@@ -51,3 +51,33 @@
     width: 45%;
     margin-left: 150px;
 }
+
+@media (max-width : 1100px) {
+    .container1 {
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .container1 h1 {
+        width: 90%;
+        
+    }
+    .container2 {
+        display: flexbox;
+        align-items: center;
+        flex-wrap: wrap;
+        
+    }
+    .spana {
+        order: 1;
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+    .container2content {
+        order: 2;
+        width: 100%;
+    }
+}

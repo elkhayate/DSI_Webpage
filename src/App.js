@@ -53,13 +53,13 @@ function Home() {
         <button>Read More</button>
         </div>
         <div className={style.container1img}>
-          <img src = {pana} alt = ""/>
+          <img src = {pana} alt = "" className={style.panas}/>
         </div>
       </div>
       <div className={style.back}>
       <div className={style.container2}>
         <div className={style.container2img}>
-          <img src={desk} alt = "" />
+          <img src={desk} alt = "" className={style.panas}/>
         </div>
         <div className={style.container2content}>
           <h1>Welcome to <span>Dwidasa Samsara Indonesia (DSI)</span></h1>
@@ -69,23 +69,23 @@ function Home() {
       </div>
       </div>
       <div className={style.back1}>
-        <h1 className={style.title}>Product ans Service</h1>
+        <h1 className={style.title}>Product and Service</h1>
       <div className={style.container3}>
       <div className={style.item1}>
       <img src={product} alt=""/>
-      <h1><span>Our Product</span></h1>
+      <h1><span>Our Product</span></h1><br/>
       <p>Our product is made on the base of our team’s careful research and analyses, ranging from internet based application.</p>
       <button>Read More</button>
       </div>
       <div className={style.item2}>
       <img src={verified} alt=""/>
-      <h1><span>Our Product</span></h1>
+      <h1><span>Our Product</span></h1><br/>
       <p>DSI’s shared service solutions focus on the front-end based software development, designed specifically for the banking and financial sectors.</p>
       <button>Read More</button>
       </div>
       <div className={style.item3}>
         <img src={cog} alt=""/>
-      <h1><span>Our Product</span></h1>
+      <h1><span>Our Product</span></h1><br/>
       <p>First JAVA, runs on more than 850 million personal computers worldwide, and on billions of devices worldwide, including mobile and TV devices.</p>
       <button>Read More</button>
 

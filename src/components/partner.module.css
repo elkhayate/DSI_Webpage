@@ -97,3 +97,26 @@
     line-height: 140.69%;    
     color: #263238;
 }
+
+@media (max-width : 1100px) {
+    .container1 {
+        height: 100%;
+    }
+    .container1 h1 {
+        width: 95%;
+        margin: auto;
+        margin-bottom: 20px;
+        height: 100%;
+    }
+    .container1 p {
+        width: 95%;
+        margin: auto;
+    }
+    .cards {
+        display: flexbox;
+        flex-wrap: wrap;
+    }
+    .card {
+        margin: 10px;
+    }
+}

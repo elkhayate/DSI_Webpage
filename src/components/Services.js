@@ -8,7 +8,7 @@ function Services() {
         
         <section className = {style.services}>
             <div className={style.container1}>
-                <h1>Just a smile away from    <span>Winning your customer’s trust</span></h1>
+                <h1>Just a smile away from<br/><span>Winning your customer’s trust</span></h1>
             </div>
             <div className={style.container2}>
                 <div className={style.container2content}>

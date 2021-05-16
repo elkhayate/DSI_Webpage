@@ -25,12 +25,12 @@ function Footer() {
         </div>
         <div className={style.container3}>
             <ul className={style.containerlist}>
-                <li><img alt = "" src={silver}/></li>
-                <li> <img alt = "" src={net}/></li>
-                <li> <img alt = "" src={java}/></li>
-                <li><img alt = "" src={ios}/></li>
-                <li><img alt = "" src={android}/></li>
-                <li><img alt = "" src={berry}/></li>
+                <li><img alt = "" src={silver}  className={style.item}/></li>
+                <li> <img alt = "" src={net} className={style.item}/></li>
+                <li> <img alt = "" src={java} className={style.item}/></li><br/>
+                <li><img alt = "" src={ios} className={style.items}/></li>
+                <li><img alt = "" src={android} className={style.item}/></li>
+                <li><img alt = "" src={berry} className={style.item}/></li>
             </ul>  
         </div>
     </div>

@@ -19,7 +19,7 @@ function Navmobile() {
                     showBars && (
                         <div className={style.DropDown}>
                             <ul className={style.Drop}>
-                                <Link to ="/" style={Style} onClick={()=>Do()}>
+                                <Link to ="/services" style={Style} onClick={()=>Do()}>
                                 <li>Services</li>
                                 </Link>
                                 <Link style={Style} to = "/product" onClick={()=>Do()}>

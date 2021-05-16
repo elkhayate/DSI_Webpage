@@ -13,6 +13,7 @@
     color: #30444E;
     height: 65%;
     margin: auto;
+    width: 40%;
 }
 .container span {
     color: #30444E;
@@ -76,4 +77,33 @@
 .container4 {
     height: 700px;
     margin-bottom: 50px;
+}
+
+@media (max-width : 1100px) {
+    .container {
+        display: flexbox;
+        align-content: center;
+        flex-wrap: wrap;
+        height: 100%;
+        width: 100%;
+    }
+    .cpana {
+        width: 100%;
+        height: 40%;
+    }
+    .container h1 {
+        font-size: 32px;
+        height: 100%;
+        margin: auto;
+        width: 70%;
+        margin-top: 30px;
+    }
+    .container2,.container3, .container4 {
+        height: 100%;
+        display: flexbox;
+        flex-wrap: wrap;
+    }
+    .content {
+        width: 90%;
+    }
 }

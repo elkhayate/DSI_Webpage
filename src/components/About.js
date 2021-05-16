@@ -17,8 +17,8 @@ function About() {
         <section className = {style.about}>
             <div className = {style.container1}>
                 <div className={style.content1}>
-                <h1>to grow the business together<span> Continous effort through improvement and innovation</span></h1>
-                <img src={logo} alt=""/>
+                <h1>to grow the business together<br/><span> Continous effort through improvement and innovation</span></h1>
+                <img src={logo} alt="" className={style.logo}/>
                 </div>
             </div>
             <div className={style.container2}>
@@ -31,21 +31,27 @@ function About() {
             </div>
             <div className={style.container3}>
                 <div className={style.content2}>
-                    <img src={drone} alt = ""/>
-                    <div className={style.content2d}>
+                <div className={style.out}>
                         <h1>Our Future Prespective</h1>
                         <img src={line} alt = ""/>
+                        </div>
+                    <img src={drone} alt = "" className={style.drone}/>
+                    <div className={style.content2d}>
+                        <div className={style.our}>
+                        <h1>Our Future Prespective</h1>
+                        <img src={line} alt = ""/>
+                        </div>
                         <div className={style.content21}>
                             <img src={vision} alt = ""/>
                             <div className={style.da21}>
-                                <h1>Vision</h1>
+                                <h1>Vision</h1><br/>
                                 <p>To become the leading application service provider (ASP) focusing on front-end application delivered for Indonesia’s banking and fi nancial industry.</p>
                             </div>
                         </div>
                         <div className={style.content22}>
                             <img src={mission} alt = ""/>
                             <div className={style.da22}>
-                                <h1>Mission</h1>
+                                <h1>Mission</h1><br/>
                                 <p>To grow the business together with clients by providing enhanced services and wide delivery channel to end-users.</p>
                             </div>
                         </div>
@@ -60,7 +66,7 @@ function About() {
                     <p>Our commitment to innovation depends on everyone being comfortable sharing ideas and opinions. Every employee is a hands-on contributor, and everyone wears several hats. Because we believe that each DSI employee is an equally important part of our success.</p><br/>
                     <p>We deeply understand that the average working person spends at least eight hours or even more, so we spend one third even half of our lives to work in a day. therefore we strive to provide a fun and positive environment in addition to a wide range of benefits to provide safety so they can enjoy working at Dwidasa Samsara Indonesia.</p>
                 </div>
-                <img src={eng} alt=""/>
+                <img className={style.eng} src={eng} alt=""/>
                 </div>
             </div>
             <div className={style.container5}>
@@ -70,7 +76,7 @@ function About() {
                 </div>
                 
                 <div className={style.content4}>
-                    <img src={map} alt="" />
+                    <img src={map} alt="" className={style.map}/>
                     <div className={style.divs4}>
                     <div className={style.con4div}>
                         <img src={house} alt=""/>

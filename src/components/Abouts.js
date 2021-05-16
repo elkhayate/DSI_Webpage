@@ -11,6 +11,7 @@ import a2 from "../images/circle-box (1).png";
 import a3 from "../images/circle-box (2).png";
 import a4 from "../images/circle-box (3).png";
 function Abouts() {
+    
     return (
         <section>
             <div className={style.container}/>

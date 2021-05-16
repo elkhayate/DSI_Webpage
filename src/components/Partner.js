@@ -8,7 +8,7 @@ import aks from "../images/image 21.png";
 function Partner() {
     return(
         <section className={style.partner}>
-            <div className={style.container}/>
+        <div className={style.container}/>
             <div className={style.container1}>
                 <h1>Together we are strong,<br/> <span>One-stop solution for all banking needs</span></h1>
                 <p>Dwidasa Samsara Indonesia is a joint collaboration with several parties that has a good reputation as a business partner, so that we can be the first choice as a “one stop solution” for all banking services provider.</p>
@@ -30,7 +30,7 @@ function Partner() {
                 <img src={aks} alt=""/>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui quis volutpat venenatis bibendum hendrerit pulvinar. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui quis volutpat venenatis bibendum hendrerit pulvinar.</p>
                 </div>
-            </div>
+        </div>
             <Footer />
         </section>
     )
