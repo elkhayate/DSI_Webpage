@@ -9,7 +9,7 @@ import b3 from "../images/image 18.png";
 import Carousel from "./Carousel";
 
 function Client() {
-    const Style = {margin : "12px", width : "80%"};
+    const Style = {margin : "12px", width : "30%"};
     return(
         <section className={style.client}>
             <div className={style.container}>
@@ -22,7 +22,7 @@ function Client() {
                 <img src={line} alt=""/>
             </div>
             <div className={style.container2}>
-                <img src={b1} alt="" style={Style}/>
+                <img className={style.bank}  src={b1} alt="" style={Style}/>
                 <div className={style.content}>
                     <h1>Bank Tabungan Negara</h1><br/>
                     <h2><span>Project WB-Bank BTN :</span></h2><br/>
@@ -32,7 +32,7 @@ function Client() {
                 </div>
             </div>
             <div className={style.container3}>
-                <img src={b2} alt=""  style={Style}/>
+                <img className={style.bank}  src={b2} alt=""  style={Style}/>
                 <div className={style.content}>
                     <h1>Bank BPR KS</h1><br/>
                     <h2><span>Mobile Banking :</span></h2>
@@ -46,7 +46,7 @@ function Client() {
                 </div>
             </div>
             <div className={style.container4}>
-                <img src={b3} alt="" style={Style}/>
+                <img className={style.bank}  src={b3} alt="" style={Style}/>
                 <div className={style.content}>
                 <h1>Bank BPR KS</h1><br/>
                     <h2><span>Mobile Banking :</span></h2>
